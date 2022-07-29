@@ -13,5 +13,7 @@ public class Fortune {
         } else {
             System.out.println("Your shoe selection will make you happy today.");
         }
+
+        input.close();
     }
 }

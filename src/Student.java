@@ -16,5 +16,7 @@ public class Student {
 
         System.out.println(studentFirstName + " " + studentLastName + " new has a GPA of " + studentGPA);
 
+        input.close();
+
     }
 }
