@@ -21,10 +21,10 @@ public class Quiz {
         System.out.println("Answer: ");
         String userInput = input.next();
 
-        while (!userInput.equals(correctAnswer.toLowerCase())) {
+        while (!userInput.toLowerCase().equals(correctAnswer.toLowerCase())) {
             System.out.println("Incorrect. Please try again.");
             System.out.println("Answer: ");
-            userInput = input.next().toLowerCase();
+            userInput = input.next();
         }
 
         System.out.println("Correct! Good job!");
